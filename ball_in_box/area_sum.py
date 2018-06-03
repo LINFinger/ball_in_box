@@ -11,8 +11,9 @@ def area_sum(circles):
 
 if __name__ == '__main__':
     num_of_circle = 5
-    blockers = [(0.5, 0.5)
-               ,(0.5, -0.3)]
+        blockers = [(0.5, 0.5), 
+                    (0.5, -0.5), 
+                    (0.5, 0.3)]
     
     circles = bb.ball_in_box(num_of_circle, blockers)
     
